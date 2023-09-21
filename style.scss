@@ -347,10 +347,22 @@ footer {
 	.services {
 		.container {
 			.card-services {
+			
 				.image {
 					width: 45vw;
 					height: 45vw;
 				}
+				
+			}
+		}
+	}
+}
+@media (max-width: 580px){
+	.services {
+		.container {
+			.card-services {
+				height: 350px;
+				
 			}
 		}
 	}
