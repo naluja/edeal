@@ -26,6 +26,10 @@ nav .right-links {
 nav .nav-link {
   color: white;
   margin-left: 10px;
+  transition: 0.3s;
+}
+nav .nav-link:hover {
+  color: #ffcc33;
 }
 nav .logo {
   display: flex;
@@ -121,10 +125,13 @@ header .contactBtn {
   font-size: 20px;
   background-color: #ffcc33;
   transition: 0.3s;
+  color: black;
+  text-decoration: none;
 }
 header .contactBtn:hover {
   background-color: black;
   color: #ffcc33;
+  border: 2px solid #ffcc33;
 }
 
 .about {
@@ -250,6 +257,7 @@ header .contactBtn:hover {
   background-color: transparent;
   border-bottom: 1px solid white;
   padding: 15px;
+  color: white;
 }
 .contact .container .contact-form form ::-moz-placeholder {
   text-transform: uppercase;
@@ -270,6 +278,7 @@ header .contactBtn:hover {
 .contact .container .contact-form form button:hover {
   background-color: black;
   color: #ffcc33;
+  border: 2px solid #ffcc33;
 }
 .contact .container .info {
   display: flex;
@@ -291,6 +300,10 @@ header .contactBtn:hover {
 .contact-links .contact-link a {
   text-decoration: none;
   color: white;
+  transition: 0.3s;
+}
+.contact-links .contact-link a:hover {
+  color: #ffcc33;
 }
 
 footer {
@@ -304,8 +317,8 @@ footer p {
   margin-top: 100px;
   margin: auto;
   color: white;
-  width: 300px;
   font-weight: 300;
+  text-align: center;
 }
 
 @media (min-width: 1400px) {
